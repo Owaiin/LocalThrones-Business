@@ -1,4 +1,4 @@
-# LocalThrones is a Manchester based service for promoting local venues, focusing on home-grown local industry. You can find more about it [here]:(https://www.instagram.com/localthronesmcr/?hl=en-gb)
+# LocalThrones is a Manchester based service for promoting local venues, focusing on home-grown local industry. You can find more about it [here](https://www.instagram.com/localthronesmcr/?hl=en-gb)
 
 The project consists of two frontends, one for everyday users and another for businesses.
 
