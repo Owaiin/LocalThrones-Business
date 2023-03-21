@@ -7,7 +7,9 @@ Customers will be able to login using OAuth providers (just Google at the moment
 Customers use a QR code from the deal page, which when scanned from a Business login, will check that the QR code is valid and then add that to a count of usage for the business to track how many times a deal has been used. Each deal will have a series of pre-defined attributes to help further define the type of interests the users of the deal have. For example: Cocktails, Pizza, American. This will then help Businesses to create further deals or help them with social media ad campaign target audiences.
 
 ## TechStack
-NextJS, TailwindCSS, DaisyUI, NextAuth/AuthJS, Prisma, PlanetScale NextAuth, Prisma, and PlanetScale are all hooked-up and working
+NextJS, TailwindCSS, DaisyUI, NextAuth/AuthJS, Prisma, PlanetScale,
+
+NextAuth, Prisma, and PlanetScale are all hooked-up and working
 
 ## Images - (This is early days - Just getting the functionality of the QRScanner and validation working
 
