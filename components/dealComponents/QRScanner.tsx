@@ -14,11 +14,10 @@ type QRResult =
     }
   | string;
 
-export default function QRScanner(props: { onComplete: any }) {
+export default function QRScanner(props: { onComplete: () => void }) {
   const [result, setResult] = useState('{"default": "default"}');
   const [showModal, setShowModal] = useState(false);
   const [showModalFail, setShowModalFail] = useState(false);
-  const router = useRouter();
   const { ref } = useZxing({
     onResult(result) {
       setResult(result.getText());
@@ -34,9 +33,7 @@ export default function QRScanner(props: { onComplete: any }) {
   // When result changes, run QRCode checks
   useEffect(() => {
     console.log(data);
-    // if (result !== '{"name": "test"}') {
-    //   checkIntializeTime(data.generatedTime);
-    // }
+
     if (!data.default) {
       checkIntializeTime(data.generatedTime);
     }

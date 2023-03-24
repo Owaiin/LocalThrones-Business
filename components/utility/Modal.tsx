@@ -1,5 +1,11 @@
+import React, { ReactNode } from "react";
 import { IoMdClose } from "react-icons/io";
-export default function Modal({ children }: any) {
+
+type ModalProps = {
+  children: ReactNode;
+};
+
+export default function Modal({ children }: ModalProps) {
   return (
     <>
       <div className="w-screen h-screen fixed top-0 left-0 z-10 bg-black bg-opacity-40 p-5 flex items-center justify-center">

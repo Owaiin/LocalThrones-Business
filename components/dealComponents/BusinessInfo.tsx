@@ -1,7 +1,7 @@
 import PopupContainer from "./PopupContainer";
 import Image from "next/image";
 import PizzaImage from "../../public/pizzaStock.jpg";
-export default function BusinessInfo(props: { onClose?: any }) {
+export default function BusinessInfo() {
   return (
     <>
       <div className="prose">
